@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    @Value("${app.varexample}")    // Inyecta una propiedad (de aplication.properties) dentro del código java
+    @Value("${app.message}")    // Inyecta una propiedad (de aplication.properties) dentro del código java
     String message;
     // Configurar una url para este controlador
     @GetMapping("/hola")
