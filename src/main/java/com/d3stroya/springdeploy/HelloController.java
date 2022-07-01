@@ -16,7 +16,7 @@ public class HelloController {
     }
 
     // Enviar HTML (NO recomendable)
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap() {
         return """
                 <!doctype html>
